@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+/* Variants such as data-horizontal and data-open that shadcn-svelte components rely on. */
+@import "shadcn-svelte/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
 
